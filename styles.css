@@ -1,0 +1,191 @@
+body {
+  background-image: url('bg.jpg');
+  padding-left: 20%;
+  padding-right: 20%; }
+
+socials, footer left socials {
+  float: right;
+  display: inline-block; }
+  socials a, footer left socials a {
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-bottom: 6px solid #8E9191; }
+    socials a:hover {
+      border-bottom-color: #8E9191; }
+  socials a:last-child {
+    margin-right: 0px; }
+  socials a:hover > i {
+    opacity: 1; }
+  socials .fa {
+    padding-top: 16px;
+    opacity: .6; }
+  socials .facebook {
+    background-color: #445897; }
+  socials .rss {
+    background-color: #CC8F32; }
+  socials .twitter {
+    background-color: #6A8DC7; }
+  socials .youtube {
+    background-color: #B1372C; }
+
+nav {
+  width: 100%;
+  display: inline-block; }
+  nav ul {
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-flex-direction: row;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    padding-bottom: 8px;
+    margin: 0; }
+    nav ul li {
+      display: -webkit-flex;
+      -webkit-justify-content: space-between;
+      color: white;
+      background-color: #B4292E;
+      text-align: center;
+      width: 23%;
+      padding: 5px; }
+      nav ul li i {
+        padding-left: 5px;
+        padding-right: 5px; }
+      nav ul li a {
+        padding: 0;
+        color: white;
+        font-size: 13px;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif; }
+
+.photog {
+  width: 100%;
+  height: 255px;
+  padding-bottom: 20px; }
+
+articles {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  width: 100%; }
+  articles article1, articles article2, articles article3 {
+    width: 29%;
+    height: 230px;
+    background-color: white;
+    padding: 15px; }
+    articles article1 h3, articles article2 h3, articles article3 h3 {
+      width: 100%;
+      padding: 5px;
+      padding-left: 15px;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 17px; }
+    articles article1 .date, articles article2 .date, articles article3 .date {
+      color: lightgray;
+      margin: 0;
+      padding: 0;
+      padding-left: 15px;
+      height: 10px; }
+    articles article1 p, articles article2 p, articles article3 p {
+      font-size: 9px;
+      font-family: 'Roboto', sans-serif;
+      height: 100px;
+      padding: 10px;
+      padding-left: 15px;
+      padding-bottom: 10px;
+      margin: 0; }
+    articles article1 a, articles article2 a, articles article3 a {
+      color: darkred;
+      width: 20%;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      padding-left: 25%; }
+  articles article3 .date {
+    padding-top: 5px; }
+  articles article3 p {
+    padding-top: 25px; }
+
+leftblock {
+  width: 66%;
+  height: 270px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 5px; }
+  leftblock lance, leftblock rodney, leftblock steve {
+    width: 48%;
+    height: 115px;
+    color: white;
+    background-image: url('lance.png');
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    padding-bottom: 5px;
+    border: solid white 2px; }
+  leftblock rodney {
+    background-image: url('rodney.png'); }
+  leftblock steve {
+    background-image: url('steve.png');
+    width: 98%;
+    margin-top: 2px; }
+
+tommy {
+  color: white;
+  background-image: url('tommy.png');
+  background-size: cover;
+  display: inline-block;
+  height: 245px;
+  width: 32.5%;
+  border: solid white 2px;
+  margin-top: 5px; }
+
+surfboards {
+  background-color: white;
+  width: 100%;
+  height: 230px;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  padding: 5px; }
+  surfboards img {
+    width: 7%;
+    height: 220px;
+    padding: 7px; }
+
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  margin-top: 10px; }
+  footer left {
+    width: 48%;
+    height: 230px;
+    display: inline-block;
+    padding: 15px; }
+    footer left h3 {
+      margin: 0; }
+    footer left socials a {
+      width: 20px;
+      height: 20px; }
+    footer left socials .facebook {
+      background-color: gray; }
+    footer left socials .rss {
+      background-color: gray; }
+    footer left socials .twitter {
+      background-color: gray; }
+    footer left socials .youtube {
+      background-color: gray; }
+  footer right {
+    width: 40%;
+    height: 230px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px; }
+    footer right form a {
+      background-color: red; }
+    footer right input, footer right textarea {
+      display: block;
+      font-size: 12px;
+      width: 95%; }
